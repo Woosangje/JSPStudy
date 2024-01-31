@@ -74,3 +74,52 @@ webapp우클릭 jspfile생성<br>
 ★★★ inclue 지시어  자주사용(jsp 파일안의 jsp 파일 header나 footer같은거)<br>
 
 표현식<br>
+
+0131<br>
+집에서 jsp공부하기<br>
+HelloJSP<br>
+라이프사이클 , 2.톰켓사용(jdbc관장) 3.cookie(유효기간) 4. section(로그인-로그아웃까지) 5.reDirect, forward<br>
+jdbc는 설치가 절반 부록B 보면서 설치하기<br>
+
+
+Mime Type<br>
+
+프로그래밍 3번 많이치기, 외워서 치기, 응용해서 치기<br>
+
+※MustHaveJSP<br>
+02ImplicitObject<br>
+★구글 url 디코드 검색<br>
+
+★ post방식으로 submit 하면 한글 깨짐 request.setCharacterEncoding("UTF-8");<br>
+★ Enumeration은  import걸어야 한다.<br>
+★ request.getParameter("eng") 자주사용<br>
+★ request.getRequestDispatcher("ResponseMain.jsp?loginErr=1").forward(request, response);<br>
+null이아니게 1로 변경<br>
+
+web.xml edu에 대한<br>
+web.xml 의 필요없는 welcome-file 지우기<br>
+
+driver, url, id, password를 application에다가 저장<br>
+★ web.xml 에서 location선언하고 Exception.jsp 만들어야 한다.<br>
+<error-code>405</error-code>,  response.getStatus(); , string = 404;<br>
+★★★ 브라우저 <br>
+session(로그인 정보 유지) > request(아이디, 로그인 정보 주고받음) > page(처리)<br>
+★★★ 자바빈즈(JavaBeans)<br>
+java파일 new > other > class파일 common 생성<br>
+★pageContext : 페이지영역<br>
+★pageContext.setAttribute는 오브젝트(Intger)같이 선언해야한다.<br>
+
+PageInclude.jsp<br>
+★ include.jsp의 html은 싹지워도 상관없다.<br>
+★ import거는거 잊지 않기 <%@ page import="common.Person" %><br>
+
+Main.jsp의 하단에 	<%@ include file="PageInclude.jsp" %>를 선언하면 메소드처럼 호출할수 있다.<br>
+request.get~는 오류 안뜨고 null처리된다.<br>
+
+RequestForward.jsp<br>
+세션은 서버 쿠키는 내가<br>
+크롬에서 f12 application에서 쿠키삭제해볼수 있음 삭제하면 500에러뜬다<br>
+
+ApplicationMain.js<br>
+페이지는 잘안쓰고 장바구니에서 쓰임<br>
+Request와 session을 자주 사용<br>
