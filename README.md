@@ -123,3 +123,39 @@ RequestForward.jsp<br>
 ApplicationMain.js<br>
 페이지는 잘안쓰고 장바구니에서 쓰임<br>
 Request와 session을 자주 사용<br>
+
+
+※ 0201
+● 04cookie
+쿠키는 처음에는 못사용한다 최소 새로고침해야 결과가 나온다.<br/>
+쿠키 응답시간은 톰켓에서 막아놈<br/>
+
+크롬 옵션 > 쿠키 데이터 삭제 > CookieMain.js에서 쿠키 삭제됐는지 확인<br/>
+★ 쿠키는 팝업 공지시 하루 열지 않기를 원할때 사용<br/>
+● PopupMain_01.js<br/>
+jquery cdn 주소 붙여넣기<br/>
+쿠키를 추가하여 hide 반영구로 적용시키기<br/>
+checked 는체크가 되어있다는 뜻<br/>
+● url을 위한 PopupCookie.jsp<br/>
+
+★★★ cookie 저장이 안될경우 jquery jdn 을 3.5.1 minified로 선언해야 한다.<br/>
+ajax는 관심을 가져야 한다.<br/>
+Java Resources에서 java파일 생성가능<br/>
+
+● JSFunction.java, CookieManager.java<br/>
+● IdSaveMain , IdSaveProcess.jsp<br/>
+쿠키 관련 파일은 그대로 사용하면 된다.	import="utils.CookieManager"<br/>
+request.getParameter방식으로 받는다.<br/>
+
+★★★★★★ JDBC<br/>
+system.sql > JDBC할때 오라클 CONNECT할것 > common 패키지에 MustHave.sql만들것<br/>
+MustHave.sql 파일 생성<br/>
+create빌드하고<br/>
+Oracle 을 musthave만들고 계정도 musthave, 1234로 일치시킴<br/>
+한글 쓰려면 n 붙여야함 nvarchar2(30)<br/>
+
+MustHaveJSP우클릭 > BuildPath > Modulepath > objdbc6추가<br/>
+★ 톰켓 경로의 lib에 objdbc6파일 추가<br/>
+★ D:\workspace\MustHaveJSP\src\main\webapp\WEB-INF\lib 에다 objdbc6파일 추가<br/>
+● JDBConnect.java , 05JDBC > ConnectionTest.jsp<br/>
+web.xml로 이동 context-param 값 4개 추가<br/>
