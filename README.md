@@ -159,3 +159,24 @@ MustHaveJSP우클릭 > BuildPath > Modulepath > objdbc6추가<br/>
 ★ D:\workspace\MustHaveJSP\src\main\webapp\WEB-INF\lib 에다 objdbc6파일 추가<br/>
 ● JDBConnect.java , 05JDBC > ConnectionTest.jsp<br/>
 web.xml로 이동 context-param 값 4개 추가<br/>
+
+※ 0202
+sql파일 만들어서 가지고 있으면 편함
+new를 20개정도 해놓는걸 커넥션 풀
+수영장에 튜브를 만들어 놓는다.
+이클립스 server > tomcat < server.xml > 20행 61행 포트번호
+35행 오타있으면안됨 <GlobalNamingResources> 그대로 복붙하기
+\\304-00\수업자료\5. jsp\DBConnPool > server.text를 이용한마
+type = "javax.sql.DataSource"   javax는 톰켓버전9
+30행 <GlobalNamingResources> 안에다  sever.text 붙이기
+DB 바뀌면 name="dbcp_myoracle" 도 수정해야 한다
+context.xml에 context.text내용 붙여넣기
+● common > DBConnPool.java
+CallableStatement는 알필요 없음
+● ExeUpdate.jsp
+ExeUpdate.jsp는 아이디가 중복되는 한번만 실행하기
+웹으로 실행해보고 DB실행하고 sql에서 member실행해서 생성됐는지 확인하기
+● ExeQuery.jsp
+97p
+
+★★★xml없을 경우 project 파일 생성할대 generator ~xml 토글 체크안해서 그렇다.
