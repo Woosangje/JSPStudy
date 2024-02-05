@@ -180,3 +180,62 @@ ExeUpdate.jsp는 아이디가 중복되는 한번만 실행하기
 97p
 
 ★★★xml없을 경우 project 파일 생성할대 generator ~xml 토글 체크안해서 그렇다.
+
+※ 0205
+
+졸업시ppt를 개인이 만들어 붙여야한다. 자바를 이용해서 썻다 등
+
+13일부터 4일 정도 미니프로젝트 해보자
+이번주 는 미니프로젝트
+
+servers의 web.xml의 timeout을 
+musthave web.xml에 붙여넣는다.
+
+●06Session
+F12 >application > Cookies >10-1:8000의 쿠키 삭제가능
+
+★ %> 이유없이 빨간줄 오류가발생하면 jsp 종료했다 다시켜기
+submit을 누르면  onsubmit을 1차실행 그다음 action실행
+
+★★★ LoginProcess.jsp와 web.xml은 대소문자 일치시켜야한다.
+만약 다를경우 web.xml을 기준으로 수정한다.
+
+● MemberDTO.java ,  MemberDAO.java
+
+ctlr + 클릭하면 해당 .js로 이동한다.
+초보자들은 getStirng() 안에 이름그대로 넣을것
+
+★★★ 06Session 외우기 자주사용 (xml에 내용 채워야한다.)
+getRequestDispatcher 외우기
+LoginForm.jsp 실행하고 로그인하고 나서 F12들어가서 쿠키 삭제하기
+페이지 찾을수 없으면 서버(톰켓)이나sql 연결되어 있는지 확인하기
+오류 : 부적합한 열이름 .sql 테이블이름 확인
+
+프로세스는 내용필요없어서 <html>내용 지워도 상관없다.
+
+● Common 파일 생성 , Link.jsp
+페이징(어려운 기법 코드가 따로 있음)
+103p
+★ 액션태그(지금까지 배운건 예전에사용하던 코드)
+자바빈 = DTO
+★ page는 자주 사용하지 않는다.
+● Person.java , 07ActionTag , UserBeanMain.jsp
+★★★ jsp: 의  
+★ post는 인코딩 안걸면 한글 깨진다.
+★ id="person" 는 사용할 클래스명
+
+★★★ \\304에서 받은 5. jsp\musthave_jsp-main\WebContent\WEB-INF web.xml 에서
+<!-- post방식의 한글처리를 통합하는 내용 --> SetCharEncoding복사해서 
+lib의 web.xml에 붙여넣어라
+모델1방식 배워야하지만 해커가 조작이 가능함
+JDBConnext.java의 세번째 생성자
+Link.jsp 그대로 사용함
+
+
+////////////////// 기타
+1. xml에 정보가 제대로 입력되었는지 확인
+98p 정적 쿼리문으로 회원 조회
+100p 세션 (데이터 베이스연동되는 로그인 기능)
+★★★★★★ 돈입출금, 입출금 기록 
+Sessionmain까지 101
+
