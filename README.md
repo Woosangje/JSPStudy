@@ -216,26 +216,47 @@ LoginForm.jsp 실행하고 로그인하고 나서 F12들어가서 쿠키 삭제�
 ● Common 파일 생성 , Link.jsp
 페이징(어려운 기법 코드가 따로 있음)
 103p
-★ 액션태그(지금까지 배운건 예전에사용하던 코드)
-자바빈 = DTO
-★ page는 자주 사용하지 않는다.
-● Person.java , 07ActionTag , UserBeanMain.jsp
-★★★ jsp: 의  
-★ post는 인코딩 안걸면 한글 깨진다.
-★ id="person" 는 사용할 클래스명
+★ 액션태그(지금까지 배운건 예전에사용하던 코드)<br/>
+자바빈 = DTO<br/>
+★ page는 자주 사용하지 않는다.<br/>
+● Person.java , 07ActionTag , UserBeanMain.jsp<br/>
+★★★ jsp: 의  <br/>
+★ post는 인코딩 안걸면 한글 깨진다.<br/>
+★ id="person" 는 사용할 클래스명<br/>
 
-★★★ \\304에서 받은 5. jsp\musthave_jsp-main\WebContent\WEB-INF web.xml 에서
-<!-- post방식의 한글처리를 통합하는 내용 --> SetCharEncoding복사해서 
-lib의 web.xml에 붙여넣어라
-모델1방식 배워야하지만 해커가 조작이 가능함
-JDBConnext.java의 세번째 생성자
-Link.jsp 그대로 사용함
+★★★ \\304에서 받은 5. jsp\musthave_jsp-main\WebContent\WEB-INF web.xml 에서<br/>
+<!-- post방식의 한글처리를 통합하는 내용 --> SetCharEncoding복사해서 <br/>
+lib의 web.xml에 붙여넣어라<br/>
+모델1방식 배워야하지만 해커가 조작이 가능함<br/>
+JDBConnext.java의 세번째 생성자<br/>
+Link.jsp 그대로 사용함<br/>
+
+0206<br/>
+실행이 안되면 처음부터 확인해야한다.<br/>
+dbmanager부터<br/>
+● 08Board , IsLoggedIn.jsp<br/>
+getAttribute = 속성<br/>
+ (주의사항 html5태그 중복 제거)<br/>
+★★★★★★오라클 xe , orcl 둘다 설치하면 오류날수도 있다 server를 localhost로 바꾸어주자<br/>
+selectView(num)의 쿼리문은 외우기<br/>
+우리는 inner조인만 공부하면된다 inner조인만으로 다할수 있음<br/>
+★★★
+
+View.jsp<br/>
+★★★ process는 html기능 필요없다 싹없애기 <br/>
+String content = request.getParameter("content"); //Edit.jsp에서 넘어온 파라미터값 처리<br/>
+
+출입금 만들기<br/>
+일단 임시 jsp만들기<br/>
+프로젝트 구상해보기<br/>
 
 
-////////////////// 기타
-1. xml에 정보가 제대로 입력되었는지 확인
-98p 정적 쿼리문으로 회원 조회
-100p 세션 (데이터 베이스연동되는 로그인 기능)
-★★★★★★ 돈입출금, 입출금 기록 
-Sessionmain까지 101
+////////////////// 기타<br/>
+1. xml에 정보가 제대로 입력되었는지 확인<br/>
+98p 정적 쿼리문으로 회원 조회<br/>
+100p 세션 (데이터 베이스연동되는 로그인 기능)<br/>
+★★★★★★ 돈입출금, 입출금 기록 <br/>
+Sessionmain까지 101<br/>
+
+
 
