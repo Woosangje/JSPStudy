@@ -250,7 +250,24 @@ String content = request.getParameter("content"); //Edit.jsp에서 넘어온 파
 일단 임시 jsp만들기<br/>
 프로젝트 구상해보기<br/>
 
+※ 0207
+스프링으로 페이지 땡겨옴
+★ 이클립스 코드에 오류있으면 Project탭 > clean
+ ★09Board
+페이징 기능은 리스트에서작업
+sql은 자바에너어라(실습할때)
 
+MustHave.sql 코드추가 
+web.xml에서 "페이징 처리용 초기값 파라미터 설정" 추가, list.jsp 코드추가
+ list.jsp > virtualNum = totalCount-- 주석처리
+utils에 BoardPage.java 오타나면 안되니 가져다 붙여라
+● EL(표현언어)
+지금까지 해온건 2010년도에 유행했던거 EL이라는 것은 2010년도 이후에 출시된 언어
+● 기본 사용법
+★★★ 객체 표현방식 외우기
+정적메소드 호출 해보기
+오후 175p 까지
+★★ JSP 166P 버전문제로 (integer) 안되니 99넣어서 실행할것
 ////////////////// 기타<br/>
 1. xml에 정보가 제대로 입력되었는지 확인<br/>
 98p 정적 쿼리문으로 회원 조회<br/>
