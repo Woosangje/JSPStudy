@@ -276,4 +276,30 @@ utils에 BoardPage.java 오타나면 안되니 가져다 붙여라
 Sessionmain까지 101<br/>
 
 
+※ 0208
+sql태그는 거의 안씀<br/>
+★★★★★★ jstl사용하려면 jar파일 내려받아야한다.<br/>
+크롬 > https://mvnrepository.com/ 1.2 > Files jar 버튼눌러 다운받아 lib파일에넣기<br/>
+● set1.jsp > <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %><br/>
+자카르타는 10 버전이라 쓰면 안됨<br/>
+jstl 5개 다 때려박으면 느려짐 필요한것만 붙여넣을것<br/>
+★★ 복붙했고 철자틀리거 없는데 오류발생하면 jsp 닫았다 열어볼것<br/>
+
+★★★★★★설날에 코드분석해보기<br/>
+교재판매 폴더 jsp쇼핑몰pdf 공부하기<br/>
+★ 189p까지<br/>
+http://servlets.com/cos/ -> zip 파일을 다운 받음 <br/>
+하단 Version : cos-22.05.zip 다운<br/>
+cos-22.05 폴더 > lib > cos.jar을 이클립스의 lib폴더에 붙여넣기<br/>
+★ 파일 업로드는 반드시 post방식을 사용한다.<br/>
+MustHave.sql에 -- 파일 업로드용 데이터베이스 생성<br/>
+★파일명이 중복된다. 대부분 연월분시일초를 파일명으로 한다. 그러면 중복될 가능성이 거의 없음<br/>
+--오리지널 파일명으로 파일명이 길거나 한글이거나 확장자 포함<br/>
+--저장용 파일명(중복배제용, 날짜나시간정보로 파일명을 생성)<br/>
+●  MyfileDAO,DTO<br/>
+● DBConnPool {//연결고장시 톰켓 서버의 server.xml과 context.xml을 확인하세요. (연결 실패시)<br/>
+● UploadProcess.jsp<br/>
+attachedFile은 첨부파일명<br/>
+\은 주석처리되니 \\로 입력<br/>
+진짜 서버에 올려야 보임216p까지<br/>
 
