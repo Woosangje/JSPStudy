@@ -303,3 +303,23 @@ attachedFile은 첨부파일명<br/>
 \은 주석처리되니 \\로 입력<br/>
 진짜 서버에 올려야 보임216p까지<br/>
 
+0213<br/>
+MVC(MODEL, VIEW,v
+13Servlet<br/>
+정부에서 사업하는것 수원시청검색 > index.do do라는건 자바를 사용한다는 뜻<br/>
+예외발생은 xml에서 만들수있다.<br/>
+@WebServlet을 자주사용하는데 수정하려면 java파일을 일일이 찾아봐야한다.<br/>
+
+● FrontController.jsp로 실행하면 URI,요청명 출력 안됨 href누르면 출력<br/>
+인증방법 2가지방법 DB로 인증, 톰켓인증(서버관리자가 세팅할수있도록 만든거)<br/>
+DB인증은 세션이용<br/>
+톰켓은 application 이용<br/>
+●  xml > <servlet-name>MemberAuth, MemberAuth.java<br/>
+"admin_id"는 xml에서 복사하기<br/>
+217p서블릿<br/>
+
+수목금 미니프로젝트 쇼핑몰 선생님이 주셨던걸로<br/>
+파일업로드 옮기기14MVCBoard<br/>
+5.jsp 더미데이터, MVCFileBoard 참고해서 게시판 만들기<br/>
+★ DAO에서 쿼리문 한줄로 쓸것<br/>
+
