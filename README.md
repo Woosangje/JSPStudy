@@ -323,3 +323,50 @@ DB인증은 세션이용<br/>
 5.jsp 더미데이터, MVCFileBoard 참고해서 게시판 만들기<br/>
 ★ DAO에서 쿼리문 한줄로 쓸것<br/>
 
+
+
+0213<br/>
+MVC(MODEL, VIEW,<br/>
+13Servlet<br/>
+정부에서 사업하는것 수원시청검색 > index.do do라는건 자바를 사용한다는 뜻<br/>
+예외발생은 xml에서 만들수있다.<br/>
+@WebServlet을 자주사용하는데 수정하려면 java파일을 일일이 찾아봐야한다.<br/>
+
+● FrontController.jsp로 실행하면 URI,요청명 출력 안됨 href누르면 출력<br/>
+인증방법 2가지방법 DB로 인증, 톰켓인증(서버관리자가 세팅할수있도록 만든거)<br/>
+DB인증은 세션이용<br/>
+톰켓은 application 이용<br/>
+●  xml > <servlet-name>MemberAuth, MemberAuth.java<br/>
+"admin_id"는 xml에서 복사하기<br/>
+217p서블릿<br/>
+
+수목금 미니프로젝트 쇼핑몰 선생님이 주셨던걸로<br/>
+파일업로드 옮기기14MVCBoard<br/>
+5.jsp 더미데이터, MVCFileBoard 참고해서 게시판 만들기<br/>
+★ DAO에서 쿼리문 한줄로 쓸것<br/>
+
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ 선생님<br/>
+리퀘스트 영역에 대한 정리<br/>
+:reuest개체를 가짐<br/>
+클라이언트의 요청에 대해 같은 요청을 공유하는 페이지가 대응된다.<br/>
+요청한 jsp페이지가 다른 jsp를 <jsp:include>하거나 <jsp:forward>하는 경우<br/>
+이 두 페이지는 같은 요청 범위에 속하게 되어 같은 request 개체를 <br/>
+공유하게 된다.<br/>
+웹 브라우저가 요청을 할때마다 새로운 request개체가 생성됨.<br/>
+-사용자가 요청했을 때 생성<br/>
+-서버에서 요청에 대해 응답이 완료될때 소멸<br/>
+-포워드 하는 순간에는 리퀘스트 영역이 그대로 유지(페이지 영역은 소멸)<br/>
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ end<br/>
+
+미니프로젝트 빡세게 할필요없음<br/>
+페이지, request , session 흐름만 패턴만, <br/>
+DB설계 DTO 학생한명당 CRUD 게시판, 상품, 장바구니<br/>
+테이블 5개정도<br/>
+
+★예제따라하다 오류발생하면 View대문자확인, jsp의 do를 mit으로 통일할것<br/>
+
+@WebServlet("/mvcboard/pass.mit") url에 요청 대문자일지는 내가 맞추는것<br/>
+
+● 비밀번호 검증 256p<br/>
+
