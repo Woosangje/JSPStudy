@@ -370,3 +370,38 @@ DB설계 DTO 학생한명당 CRUD 게시판, 상품, 장바구니<br/>
 
 ● 비밀번호 검증 256p<br/>
 
+
+※ 0215<br/>
+gitcmd교재 읽어보기 53p 보기<br/>
+요즘은 인증키대신 토큰 사용함<br/>
+new token classic<br/>
+이클립스에서 머할거면 전부 체크해야 로그인된다.<br/>
+암호까먹으면안됨 (ghp)<br/>
+편집 > HTTPS, Personal Acces , 토큰 입력<br/>
+
+이클립스 > 깃허브에서 jspProject 리포지토리 생성<br/>
+ssh 코드복사 git@github.com:Woosangje/jspProject.git<br/>
+Window > Open Perspective > git확인 > Clonse a git repository > https, 패스워드는 깃토큰<br/>
+경로 찾아가기 어려우니 C:\git\jspProject로 단축시키기<br/>
+MustHaveJSP우클릭 > team > Share project> finish<br/>
+오른쪽 클릭 > team의 내용이 변경됐는지확인<br/>
+window > Git Staging > 올리고싶은거 team>add to index > commit > configured는 하지말고 cancel입력할것<br/>
+★ xml, sql은 올리지 말것<br/>
+미니프로젝트 > 교재판매 폴더 쇼핑몰<br/>
+조별로는 도와주는 수준으로 책에"북마켓" 적혀있는 곳만 제작하면된다.<br/>
+취업은 스프링, 스프링부트로 해야한다. <br/>
+(조팀명, 조원소개, 일정표, 순서도, UI기획서(화면설계서), ERD, 소스코드분석)<br/>
+화면설계 https://yslab.kr/148<br/>
+
+성공한 사람들은 왜 격무에도 스트레스가 없을까<br/>
+
+북마크 페이지<br/>
+48, 74, 109, 147, 188, 221, 260, 301, 341, 372, 403 434<br/>
+468 494 539 583, 629, 655<br/>
+
+processAddBook.jsp <br/>
+ new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());<br/>
+문제해결하기<br/>
+
+jsp 쇼핑몰 303p까지<br/>
+
