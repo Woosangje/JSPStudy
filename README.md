@@ -403,5 +403,17 @@ processAddBook.jsp <br/>
  new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());<br/>
 문제해결하기<br/>
 
+0216
+DTO 메뉴추가 삭제
+제품 추가수정 삭제 관리자만 들어갈수 있도록 작성
+
+★★★ db상의 문제인거같으면 톰켓 초기화 한다음 xml,꼭 수정해야한다.
+
+★★★ 자바를 콘솔로 빌드싶다면 콘솔 빌드할main을 "Subway/src/main/java"
+에서 생성하면 안된다.
+★ ?, ?, ?  String, Int 잘 구별하기 ?붙이기 전에 sql코드를 붙여서 실행해보자.
+★★ Exception으로 통합하기
+conn.commit(); //DB 영구저장
+
 jsp 쇼핑몰 303p까지<br/>
 
