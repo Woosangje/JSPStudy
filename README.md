@@ -403,18 +403,33 @@ processAddBook.jsp <br/>
  new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());<br/>
 문제해결하기<br/>
 
-0216
-DTO 메뉴추가 삭제
-제품 추가수정 삭제 관리자만 들어갈수 있도록 작성
+0216<br/>
+DTO 메뉴추가 삭제<br/>
+제품 추가수정 삭제 관리자만 들어갈수 있도록 작성<br/>
 
-★★★ db상의 문제인거같으면 톰켓 초기화 한다음 xml,꼭 수정해야한다.
+★★★ db상의 문제인거같으면 톰켓 초기화 한다음 xml,꼭 수정해야한다.<br/>
 
-★★★ 자바를 콘솔로 빌드싶다면 콘솔 빌드할main을 "Subway/src/main/java"
+★★★ 자바를 콘솔로 빌드싶다면 콘솔 빌드할main을 "Subway/src/main/java"<br/>
 에서 생성하면 안된다.
-★ ?, ?, ?  String, Int 잘 구별하기 ?붙이기 전에 sql코드를 붙여서 실행해보자.
-★★ Exception으로 통합하기
-conn.commit(); //DB 영구저장
+★ ?, ?, ?  String, Int 잘 구별하기 ?붙이기 전에 sql코드를 붙여서 실행해보자.<br/>
+★★ Exception으로 통합하기<br/>
+conn.commit(); //DB 영구저장<br/>
 
 jsp 쇼핑몰 303p까지<br/>
-표만들기 정리를 쭉 해오기 mvc패턴 분석하기
-폴더와 매칭해서 작업하기 context처리하는거 이해 엑셀로 정리
+표만들기 정리를 쭉 해오기 mvc패턴 분석하기<br/>
+폴더와 매칭해서 작업하기 context처리하는거 이해 엑셀로 정리<br/>
+
+0219
+받은 엑셀 시트 수정해보기<br/>
+★ jsp form에서 DB insert시 한글 깨지면 xml에서 utf-8추가하기<br/>
+
+
+※ 만약 버튼 조건문으로 제어하고 싶으면 143p참조<br/>
+※ <textarea>정보</textarea> textarea사이에 엔터치면 안된다.<br/>
+※ function deletePost(){}는 View.jsp에있다.<br/>
+
+~jsp에서 ~jsp로 이동하고 ~java가 호출되는지<br/>
+
+CondimentDAO.selectListPage > web.xml POST_PER_PAGE, PAGES_PER_BLOCK<br/>
+
+157P 마저만들기<br/>
