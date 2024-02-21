@@ -433,3 +433,14 @@ jsp 쇼핑몰 303p까지<br/>
 CondimentDAO.selectListPage > web.xml POST_PER_PAGE, PAGES_PER_BLOCK<br/>
 
 157P 마저만들기<br/>
+
+0221
+"10.프로젝트 파일" 보기
+
+리스트 포함 카트 참조 뱅크
+의존성 빌드체크
+뱅크 태그 클래스이름
+
+발표 오전
+AWS에 회원가입하기 해킹처럼오해되어서 학원에서 회원가입 해야한다.
+핸드폰, 신용카드 인증
