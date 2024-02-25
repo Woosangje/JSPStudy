@@ -1,20 +1,28 @@
 # JSPStudy
+오류 <br>
+★ DTO에 String,int DAO와 일치하는지 확인 <br>
+★ rs.getInt() + "\t")인지 확인 getInt(중괄호안에 +"\t"있으면 안됨) <br>
+★ updateDAO실행하려면 해당 메소드에<br>
+con = DriverManager.getConnection("jdbc:oracle:thin:@sorune.asuscomm.com:15210:xe", "subway", "subway");<br>
+재선언해줘야 pstmt is null 오류 안생긴다.		<br>	
+★ 톰켓 탭에서 삭제하고 다시 생성하면 port 8010이었던게 - 로 초기화된다.<br>
 
-0130
-javax는 톰켓9버전
 
-edu > new > Servlet > java packge : core
+0130<br>
+javax는 톰켓9버전<br>
 
-생성후 Servers > 톰켓 들어가서 해당 DB만 선택 > finish
+edu > new > Servlet > java packge : core<br>
 
-톰캣 > clean
-실제pc의 크롬에서  http://192.168.111.101:8000/edu/FirstServlet
-404페이지가 안뜨면 정상
+생성후 Servers > 톰켓 들어가서 해당 DB만 선택 > finish<br>
 
-FirstServlet에 입력하고
-servers 중지후 다시 start
+톰캣 > clean<br>
+실제pc의 크롬에서  http://192.168.111.101:8000/edu/FirstServlet<br>
+404페이지가 안뜨면 정상<br>
 
-초기화는 한번만
+FirstServlet에 입력하고<br>
+servers 중지후 다시 start<br>
+
+초기화는 한번만<br>
 
 404에러가뜨면 무조건 주소가 잘못된것, 파일명과 주소명이 달라야 해킹하기 어려움<br>
 
